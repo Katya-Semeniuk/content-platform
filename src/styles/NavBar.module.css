@@ -1,3 +1,31 @@
 .Navbar{
     border-bottom: 1px solid grey;
 }
+.SignInBtn{
+    padding: 5px 15px;
+    color: #FF6C00;
+    transition: all ease-in-out 0.3s;
+    }
+    
+.SignInBtn:hover{
+    text-decoration: none;
+}
+
+.SignUpBtn{
+padding: 5px 15px;
+color: white;
+background-color: #FF6C00;
+border: 1px solid #FF6C00;
+border-radius: 4px;
+text-decoration: none;
+transition: all ease-in-out 0.3s;
+}
+
+.SignUpBtn:hover{
+    color: #FF6C00;
+    background-color: white;
+    text-decoration: none;
+}
+.Active{
+    color: red;
+}
